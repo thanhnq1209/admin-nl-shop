@@ -828,8 +828,8 @@ var AppSettings = (function () {
     };
     // public static API_ENDPOINT='http://localhost:17453/api/';
     // public static API_ENDPOINT_IMAGE = 'http://localhost:17453';
-    AppSettings.API_ENDPOINT = 'http://nlshop.azurewebsites.net/api/';
-    AppSettings.API_ENDPOINT_IMAGE = 'http://nlshop.azurewebsites.net';
+    AppSettings.API_ENDPOINT = 'https://nlshop.azurewebsites.net/api/';
+    AppSettings.API_ENDPOINT_IMAGE = 'https://nlshop.azurewebsites.net';
     return AppSettings;
 }());
 
