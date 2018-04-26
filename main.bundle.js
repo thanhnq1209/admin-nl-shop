@@ -818,8 +818,6 @@ var AppComponent = (function () {
 var AppSettings = (function () {
     function AppSettings() {
     }
-    // public static API_ENDPOINT='http://nlshop.azurewebsites.net/api/';
-    // public static API_ENDPOINT_IMAGE = 'http://nlshop.azurewebsites.net';
     AppSettings.jwt = function () {
         var headers = new __WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Headers */]({
             'Access-Control-Allow-Origin': '*',
@@ -828,8 +826,10 @@ var AppSettings = (function () {
         });
         return new __WEBPACK_IMPORTED_MODULE_0__angular_http__["d" /* RequestOptions */]({ headers: headers });
     };
-    AppSettings.API_ENDPOINT = 'http://localhost:17453/api/';
-    AppSettings.API_ENDPOINT_IMAGE = 'http://localhost:17453';
+    // public static API_ENDPOINT='http://localhost:17453/api/';
+    // public static API_ENDPOINT_IMAGE = 'http://localhost:17453';
+    AppSettings.API_ENDPOINT = 'http://nlshop.azurewebsites.net/api/';
+    AppSettings.API_ENDPOINT_IMAGE = 'http://nlshop.azurewebsites.net';
     return AppSettings;
 }());
 
